@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <div className="userList">
         {
-          users.map(user => <Person users={user} handleAddTeam={handleAddTeam}></Person>)
+          users.map((user, i) => <Person key={i} users={user} handleAddTeam={handleAddTeam}></Person>)
         }
       </div>
       <div className="team">

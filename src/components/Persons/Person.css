@@ -1,0 +1,13 @@
+.person{
+    display: flex;
+    border: 1px solid saddlebrown;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.personImg{
+    padding: 10px;
+}
+.personDetails{
+    padding: 10px;
+}

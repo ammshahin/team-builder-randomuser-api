@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+}
+.team{
+  color: salmon;
+  padding: 10px;
 }
 
 .App-logo {
@@ -36,3 +41,5 @@
     transform: rotate(360deg);
   }
 }
+
+
